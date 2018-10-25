@@ -31,7 +31,7 @@ client.user.setGame(`Zerotric Store.⚡`,"http://twitch.tv/S-F")
 
 client.on('ready', () => {
     setInterval(function(){
-        client.guilds.get('505152433949900810').roles.find('name', 'zRainbow').edit({color: 'RANDOM'}) // {By SpooderMan} 
+        client.guilds.get('505152433949900810').roles.find('name', 'Rainbow').edit({color: 'RANDOM'}) // {By SpooderMan} 
     },7000);
 
 client.login(process.env.BOT_TOKEN);
